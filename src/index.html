@@ -5,35 +5,153 @@
     <title>brasserie-licorne.ch</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="scss/main.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
+      <header>
+        <div class="row">
+          <div class="col-8">
+            <div class="logo">
+              <img src="img/logo-blanc.png" alt="Logo licone en blanc" />
+            </div>
+          </div>
+          <div class="col-2">
+            <img src="img/search.png" alt="search" />
+            <img src="img/profil.png" alt="profil" />
+          </div>
+
+          <div class="col-2">Burger menu</div>
+          <div class="col-12">image</div>
+        </div>
+      </header>
       <div class="row">
-        <div class="col-8">Logo</div>
-        <div class="col-2">info</div>
-        <div class="col-2">burger menu</div>
-        <div class="col-12">image</div>
+        <div class="col-12">
+          <div class="histoire">
+            <h1>Notre histoire</h1>
+            <p class="histoire-text">
+              Crée en 2023 à Estavayer-Le-Lac dans le canton de Fribourg la
+              Brasserie Licorne est une histoire collective faite de voyages et
+              de passions. <br /><br />
+              Notre brasserie incarne l'esprit de l'innovation et de la santé,
+              offrant une gamme exquise de bières sans alcool qui ravissent les
+              papilles sans compromis sur le plaisir. <br />
+              <br />
+              Que vous soyez un amateur de bière chevronné ou un nouvel adepte
+              des breuvages sans alcool, notre brasserie vous invite à découvrir
+              une nouvelle dimension de la dégustation.
+            </p>
+          </div>
+        </div>
       </div>
       <div class="row">
-        <div class="col-12">histoire</div>
+        <div class="col-12"><h1>Notre collection</h1></div>
+        <div class="col-4">
+          <h3>Brune</h3>
+          <img src="img/bouteille-bleu.png" alt="image des bouteille-bleu" />
+          <p class="information">
+            <strong> Bouteilles en verre de 33cl</strong> <br /><br />
+            Prix à l’unité : CHF 4.60 <br />
+            <br />
+            Prix au pack de 4 : CHF 16
+          </p>
+          <div class="center">
+            <select class="dropdown" name="" id="">
+              <option value="">0 Bière</option>
+              <option value="">1 Bière</option>
+              <option value="">2 Bières</option>
+              <option value="">3 Bières</option>
+              <option value="">4 Bières</option>
+              <option value="">1 Pack</option>
+              <option value="">2 Packs</option>
+              <option value="">3 Packs</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-4">
+          <h3>Sans gluten</h3>
+          <img src="img/bouteille-jaune.png" alt="image des bouteille-jaune" />
+          <p class="information">
+            <strong> Bouteilles en verre de 33cl</strong> <br /><br />
+            Prix à l’unité : CHF 4.60 <br /><br />
+            Prix au pack de 4 : CHF 16
+          </p>
+          <div class="center">
+            <select class="dropdown" name="" id="">
+              <option value="">0 Bière</option>
+              <option value="">1 Bière</option>
+              <option value="">2 Bières</option>
+              <option value="">3 Bières</option>
+              <option value="">4 Bières</option>
+              <option value="">1 Pack</option>
+              <option value="">2 Packs</option>
+              <option value="">3 Packs</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-4">
+          <h3>Blonde</h3>
+          <img src="img/bouteille-rose.png" alt="image des bouteille-rose" />
+          <p class="information">
+            <strong> Bouteilles en verre de 33cl</strong><br /><br />
+            Prix à l’unité : CHF 4.60 <br />
+            <br />
+            Prix au pack de 4 : CHF 16
+          </p>
+          <div class="center">
+            <select class="dropdown" name="" id="">
+              <option value="">0 Bière</option>
+              <option value="">1 Bière</option>
+              <option value="">2 Bières</option>
+              <option value="">3 Bières</option>
+              <option value="">4 Bières</option>
+              <option value="">1 Pack</option>
+              <option value="">2 Packs</option>
+              <option value="">3 Packs</option>
+            </select>
+          </div>
+        </div>
       </div>
       <div class="row">
-        <div class="col-12">titre</div>
-        <div class="col-4">Brune</div>
-        <div class="col-4">Sans gluten</div>
-        <div class="col-4">Blonde</div>
+        <div class="col-4 offset-4">
+          <button class="button">
+            Ajouter au panier <img src="img/caddie.png" alt="caddie" />
+          </button>
+        </div>
       </div>
       <div class="row">
-        <div class="col-4 offset-4">panier de vente</div>
+        <div class="col-2 offset-3">
+          <div class="reseau">
+            <img src="img/instagram.png" alt="logo instagram" />
+          </div>
+          <div class="reseau-logo">
+            <img src="img/Instagram_logo 1.png" alt="logo instagram-typo" />
+          </div>
+        </div>
+        <div class="col-2 offset-2">
+          <div class="reseau">
+            <img src="img/tiktok.png" alt="logo tiktok" />
+          </div>
+          <div class="reseau-logo">
+            <img src="img/logo_TikTok 1.png" alt="logo tiktok-typo" />
+          </div>
+        </div>
       </div>
       <div class="row">
-        <div class="col-2 offset-3">instagram</div>
-        <div class="col-2 offset-2">tiktok</div>
-      </div>
-      <div class="row">
-        <div class="col-2">image-1</div>
-        <div class="col-2 offset-3">image-2</div>
-        <div class="col-2 offset-3">image-3</div>
+        <div class="col-2">
+          <img src="img/photo-insta-1.png" alt="brasserie" />
+        </div>
+        <div class="col-2 offset-3">
+          <img src="img/photo-insta-2.png" alt="verre de bières" />
+        </div>
+        <div class="col-2 offset-3">
+          <img src="img/photo-insta-3.png" alt="client fidèles" />
+        </div>
       </div>
       <div class="row">
         <div class="col-12">footer</div>
