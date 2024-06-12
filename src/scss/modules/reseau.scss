@@ -1,9 +1,13 @@
-.reseau {
+.separation {
   border-right: solid 2px black;
-  margin-right: 140px;
+  padding: 10px;
+  margin-right: 20px;
+  display: flex;
 }
 
-.reseau-logo {
-  border: solid 3px pink;
-  margin-left: 10px;
+.reseau {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0px;
 }

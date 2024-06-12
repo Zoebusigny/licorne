@@ -1,20 +1,24 @@
 .button {
-  width: 230px;
-  height: 51px;
-  background: #ffc318;
-  border-radius: 50px;
+  align-self: center;
+  padding: 7px 20px;
   color: black;
-  border: none;
-  padding: 0px 20px;
-
-  outline: none;
-  font-weight: normal;
   font-family: "Alata", sans-serif;
   font-size: 18px;
+  text-align: center;
+  background: #ffc318;
+  border-radius: 30px;
+  border: none;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+  margin-left: 90px;
+  margin-top: 40px;
+  margin-bottom: 50px;
 }
 
-.buttonr:active {
-  color: #eee;
-  background: #76aabc;
-  box-shadow: black;
+.button:hover {
+  background: #f6b600;
+}
+
+.button:active {
+  transform: scale(1.025);
 }
