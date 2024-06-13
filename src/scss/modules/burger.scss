@@ -1,0 +1,85 @@
+.burger-button {
+  z-index: 9;
+  padding: 8px;
+  width: 40px;
+}
+
+.burger-button span {
+  width: 40px;
+  border: 2px solid white;
+  background-color: white;
+  display: block;
+  border-radius: 22px;
+  transition: 0.5s;
+}
+.burger-button.active span {
+  border-color: #dec477;
+  background-color: #dec477;
+}
+
+.burger-top,
+.burger-bottom,
+.burger-middle {
+  position: absolute;
+}
+.burger-middle {
+  top: 15px;
+}
+
+.burger-top {
+  top: -02px;
+}
+
+.burger-bottom {
+  bottom: -02px;
+}
+
+.burger-button.active .burger-top {
+  position: absolute;
+  top: 20px;
+  transform: rotateZ(45deg);
+}
+
+.burger-button.active .burger-middle {
+  border-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.burger-button.active .burger-bottom {
+  position: absolute;
+  bottom: 11px;
+  transform: rotateZ(-45deg);
+}
+
+.burger-menu {
+  display: flex;
+  position: fixed;
+  top: 0vh;
+  left: 100vw;
+  right: -100vw;
+  bottom: 0vh;
+  background-color: #f9f9f9;
+  opacity: 80%;
+  padding: 5px;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+  z-index: 8;
+  transition: 1s;
+  align-content: space-around;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.burger-menu.active {
+  left: 50vw;
+  right: 0;
+}
+.burger-menu a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 300;
+  color: #c3bfbc;
+  font-family: "Alegreya Sans SC", sans-serif;
+  display: block;
+  padding: 5px 15px;
+  text-align: center;
+  white-space: nowrap;
+}

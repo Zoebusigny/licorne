@@ -52,7 +52,7 @@ video {
 //   border: 1px solid rgba(86, 61, 124, 0.2);
 // }
 .fond-header {
-  width: 1492px;
+  width: 100%;
   height: 1122px;
   display: flex;
   justify-content: center;
@@ -79,11 +79,13 @@ hr {
 }
 .hr-color {
   padding: 5px;
-  width: 1496px;
+  width: 100%;
   height: 22px;
   display: flex;
   background: #dec477;
   border: none;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 /* ====================================
