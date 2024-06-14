@@ -1,0 +1,27 @@
+.savoir-plus {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 2420px;
+  margin-left: 140px;
+}
+
+button {
+  align-self: center;
+  padding: 8px 20px;
+  color: white;
+  font-family: "Alata", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  background: transparent;
+  border: solid 2px white;
+  border-radius: 80px;
+
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+button:active {
+  background: white;
+  color: initial;
+}

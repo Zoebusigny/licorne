@@ -83,3 +83,11 @@
   text-align: center;
   white-space: nowrap;
 }
+
+.burger-menu span {
+  color: pink;
+}
+
+.burger-menu span.is-active {
+  color: blue;
+}
