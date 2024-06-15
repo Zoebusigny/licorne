@@ -84,10 +84,7 @@
   white-space: nowrap;
 }
 
-.burger-menu span {
-  color: pink;
-}
-
-.burger-menu span.is-active {
-  color: blue;
+.burger-menu span:hover {
+  color: #dec477;
+  font-weight: 500;
 }
