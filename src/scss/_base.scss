@@ -81,9 +81,22 @@ hr {
 }
 
 .fond-header {
-  width: 1495px;
-  height: 1090px;
-  object-fit: fill;
+  background-image: url(/src/img/ntm.png);
+  height: 1098px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  overflow: hidden;
+}
+
+@media (max-width: 1440px) {
+  .fond-header {
+    background-image: url(/src/img/ntm.png);
+    height: 100px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 /* ====================================
